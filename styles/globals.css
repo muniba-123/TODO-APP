@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  paddingy: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  background: url(../assets/images/image.webp);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container .inner {
+  height: 100%;
+  margin: 100px 0;
+  align-items: center;
+}
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  background: url(../assets/images/profile.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid #fff;
+  margin-bottom: 33px;
+}
+.text-block {
+  width: 100%;
+  position: relative;
+}
+input {
+  width: 100% !important;
+  padding: 13px 17px !important;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none !important;
+  outline: none !important;
+  border-radius: 5px;
+}
+.plus-icon {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  background-color: #bbb18c;
+  padding: 4px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  border-radius: 5px;
+  display: flex;
+  margin: auto;
+}
+.title {
+  font-size: 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  position: relative;
+  border-radius: 5px;
+  background: #aa977aa3;
+  width: 100%;
+  color: #fff;
+  padding: 13px 47px;
+}
+.title .left-icon {
+  position: absolute;
+  left: 9px;
+  top: 6px;
+  width: 30px;
+  height: 38px;
+}
+.title .right-icon {
+  position: absolute;
+  right: 9px;
+  top: 17px;
+  width: 30px;
+  height: 17px;
+}
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  max-height: 260px;
+  min-height: 260px;
+  overflow: auto;
+  background: #ddd5cc;
+  border-radius: 5px;
+}
+.list .item {
+  align-items: center;
+  border-radius: 5px;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+.list .item .top {
+  padding: 10px 44px;
+  position: relative;
+}
+.item .left-icon {
+  position: absolute;
+  left: 9px;
+  top: 6px;
+  width: 30px;
+  height: 38px;
+}
+.item .right-icon {
+  position: absolute;
+  right: 9px;
+  top: 17px;
+  width: 30px;
+  height: 17px;
+}
+.list .item .details {
+  background: #ece9e4;
+  padding: 14px 9px;
+}
+.list .item .details .delete-btn {
+  width: 100%;
+  background-color: #fecaca;
+  color: red;
+}
+.list .no-tasks-block {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
