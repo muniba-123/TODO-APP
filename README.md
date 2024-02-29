@@ -26,7 +26,7 @@ Before running the application, make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone
+   git clone https://github.com/muniba-123/TODO-APP
    cd todo-with-nextjs-main
    ```
 
